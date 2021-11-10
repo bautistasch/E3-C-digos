@@ -14,7 +14,9 @@ module Memory4x4(
 		for (i = 0; i < 16; i = i+1)
 			mem[i] = i;
 	end
-
+	
+	// Oscilador para UPDUINO de baja frecuencia
+	// int_osc -> Parametro que devuelve el oscilador (Reg a usar)
 	LSOSC u_HSOSC(.CLKLFPU(1), .CLKLFEN(1), .CLKLF(int_osc));
 
 	always @(posedge int_osc)
