@@ -1,0 +1,16 @@
+VLO/Z GND  DCE_pad.vlo_inst
+     *** DCE_pad.bb_inst/T_N is driven by constant or a pin on an incomplete path
+     *** CLK_pad.bb_inst/T_N is driven by constant or a pin on an incomplete path
+     *** POK_pad.bb_inst/T_N is driven by constant or a pin on an incomplete path
+     *** PNOK_pad.bb_inst/T_N is driven by constant or a pin on an incomplete path
+     *** DCS_pad.bb_inst/T_N is driven by constant or a pin on an incomplete path
+     *** RST_pad.bb_inst/T_N is driven by constant or a pin on an incomplete path
+VHI/Z VCC  i326
+     *** Sreg_FSM_i3/SP is driven by constant or a pin on an incomplete path
+     *** Sreg_FSM_i2/SP is driven by constant or a pin on an incomplete path
+     *** Sreg_FSM_i4/SP is driven by constant or a pin on an incomplete path
+     *** Sreg_FSM_i1/SP is driven by constant or a pin on an incomplete path
+     *** Lnok_pad.bb_inst/T_N is driven by constant or a pin on an incomplete path
+     *** Lok_pad.bb_inst/T_N is driven by constant or a pin on an incomplete path
+     *** Ms_pad.bb_inst/T_N is driven by constant or a pin on an incomplete path
+     *** Me_pad.bb_inst/T_N is driven by constant or a pin on an incomplete path

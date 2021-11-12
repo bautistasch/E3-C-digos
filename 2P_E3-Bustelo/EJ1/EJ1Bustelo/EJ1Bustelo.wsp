@@ -1,0 +1,16 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+EJ1Bustelo=1
+Built-in symbols=0
+[COMPILESTATUS|.\src\QControl.v]
+FileTimeLow=30922580
+Status=Compiled
+[COMPILESTATUS|.\src\TestBench.v]
+FileTimeLow=30922587
+Status=Compiled
+[COMPILESTATUS|.\src\outOK.awc]
+FileTimeLow=30922585
+Status=Modified
+[CACHEDOC|Aldec.Project.Generic.7|.\EJ1Bustelo\EJ1Bustelo.adf|]
+Path=/Test
+[Gui config]
+RunFor=100 ns

@@ -1,0 +1,8 @@
+---------------------------------------------------
+Report for cell QControl
+   Instance path: QControl
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         12        100.0
+                                 IOBUF	         10        100.0
+                                PFUREG	          4        100.0

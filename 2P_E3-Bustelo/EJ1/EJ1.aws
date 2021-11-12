@@ -1,0 +1,12 @@
+[Version]
+Version=11.1
+[Designs]
+ej1bustelo=.\EJ1Bustelo\EJ1Bustelo.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+ej1bustelo=1

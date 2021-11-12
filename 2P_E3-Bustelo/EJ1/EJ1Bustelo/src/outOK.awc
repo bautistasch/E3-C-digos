@@ -1,0 +1,52 @@
+<config>
+    <version>
+        3.1
+    </version>
+    <comment>
+    </comment>
+    <databases>
+        <database id="">*virtual*</database>
+        <database id="e094679eb21806b48d61e70a09080000">wave.asdb</database>
+    </databases>
+    <signallists>
+        <signallist id="0">
+        <signal>/Test/CLK_</signal>
+        <signal>/Test/RST_</signal>
+        <signal>/Test/DCE_</signal>
+        <signal>/Test/POK_</signal>
+        <signal>/Test/PNOK_</signal>
+        <signal>/Test/DCS_</signal>
+        <signal>/Test/ME_</signal>
+        <signal>/Test/MS_</signal>
+        <signal>/Test/LOK_</signal>
+        <signal>/Test/LNOK_</signal>
+        </signallist>
+    </signallists>
+    <timebases>
+        <timebase id="0">
+            <time start_time="0" end_time="298141" />
+        </timebase>
+    </timebases>
+    <prefbases>
+        <prefbase id="0" >
+        </prefbase>
+    </prefbases>
+    <bookmarkbases>
+        <bookmarks id="0">
+        </bookmarks>
+    </bookmarkbases>
+    <cursorbases>
+        <cursors id="0">
+            <cursor value="73000" label="Cursor 1" locked="0" />
+        </cursors>
+    </cursorbases>
+    <measurementbases>
+    </measurementbases>
+    <commentbases>
+        <comments id="0">
+        </comments>
+    </commentbases>
+    <views>
+        <view signallist="0" propertybase="0" prefbase="-1" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
+    </views>
+</config>

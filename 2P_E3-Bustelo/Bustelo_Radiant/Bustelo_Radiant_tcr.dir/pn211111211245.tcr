@@ -1,0 +1,11 @@
+#Start recording tcl command: 11/11/2021 20:42:46
+#Project Location: D:/Users/nicob/Desktop/Electro3/2P_E3-Bustelo/Bustelo_Radiant; Project name: Bustelo_Radiant
+prj_create -name "Bustelo_Radiant" -impl "EJ1" -dev iCE40UP5K-SG48I -performance "High-Performance_1.2V" -synthesis "lse"
+prj_add_source "D:/Users/nicob/Desktop/Electro3/2P_E3-Bustelo/Bustelo_Radiant/source/EJ1/EJ1.sdc" "D:/Users/nicob/Desktop/Electro3/2P_E3-Bustelo/Bustelo_Radiant/source/EJ1/EJ1.pdc"
+prj_save 
+prj_add_source "D:/Users/nicob/Desktop/Electro3/2P_E3-Bustelo/Bustelo_Radiant/source/EJ1/QControl.v"
+prj_run Synthesis -impl EJ1
+prj_run PAR -impl EJ1
+prj_run Export -impl EJ1
+launch_programmer_prj "C:/lscc/radiant/3.0"
+#Stop recording: 11/11/2021 21:12:45

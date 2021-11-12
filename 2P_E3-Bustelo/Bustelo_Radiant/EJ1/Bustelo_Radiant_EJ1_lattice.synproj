@@ -1,0 +1,48 @@
+-a "iCE40UP"
+-p iCE40UP5K
+-t SG48
+-sp "High-Performance_1.2V"
+-frequency 200
+-optimization_goal Area
+-bram_utilization 100
+-ramstyle Auto
+-romstyle auto
+-dsp_utilization 100
+-use_dsp 1
+-use_carry_chain 1
+-carry_chain_length 0
+
+-resource_sharing 1
+-propagate_constants 1
+-remove_duplicate_regs 1
+
+-max_fanout 1000
+-fsm_encoding_style Auto
+-twr_paths 3
+-fix_gated_clocks 1
+-loop_limit 1950
+
+
+
+
+-use_io_reg auto
+
+
+-sethld
+
+
+
+-use_io_insertion 1
+-resolve_mixed_drivers 0
+-sdc "D:/Users/nicob/Desktop/Electro3/2P_E3-Bustelo/Bustelo_Radiant/source/EJ1/EJ1.sdc"
+-path "C:/lscc/radiant/3.0/ispfpga/ice40tp/data" "D:/Users/nicob/Desktop/Electro3/2P_E3-Bustelo/Bustelo_Radiant/EJ1" "D:/Users/nicob/Desktop/Electro3/2P_E3-Bustelo/Bustelo_Radiant"
+-ver "C:/lscc/radiant/3.0/ip/pmi/pmi_iCE40UP.v"
+-lib pmi -vhd "C:/lscc/radiant/3.0/ip/pmi/pmi_iCE40UP.vhd"
+-ver "D:/Users/nicob/Desktop/Electro3/2P_E3-Bustelo/Bustelo_Radiant/source/EJ1/QControl.v"
+
+
+-path "D:/Users/nicob/Desktop/Electro3/2P_E3-Bustelo/Bustelo_Radiant"
+-top QControl
+-udb "Bustelo_Radiant_EJ1_rtl.udb"
+-output_hdl "Bustelo_Radiant_EJ1.vm"
+
